@@ -26,6 +26,11 @@ p {
   border-color: #fff;
 }
 
+.btn.btn_preto:hover {
+  color: black;
+  border-color: black;
+}
+
 .subtitulo {
   font-size: 24px;
   line-height: 30px;
@@ -34,6 +39,7 @@ p {
   color: black;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .subtitulo::after {
@@ -53,6 +59,7 @@ p {
   width: 100%;
   background: #fec63e;
   padding: 15px 0px;
+  z-index: 10;
 }
 
 .header_menu {
@@ -161,4 +168,14 @@ p {
 .produtos_icone {
   background-color: black;
   padding: 20px;
+}
+
+.call {
+  padding-top: 40px;
+  text-align: center;
+  clear: both;
+}
+
+.call p {
+  margin-bottom: 20px;
 }

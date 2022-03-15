@@ -214,8 +214,24 @@ img {
   padding: 60px 0;
 }
 
+.qualidade::after {
+  content: "";
+  width: 634px;
+  height: 83px;
+  display: block;
+  background: url("../img/linhas.svg") no-repeat center;
+  position: absolute;
+  top: 209px;
+  right: 162px;
+  z-index: -1;
+}
+
 .qualidade img {
   margin: 0 auto;
+}
+
+.qualidade_lista {
+  padding-top: 20px;
 }
 
 .qualidade_lista li {

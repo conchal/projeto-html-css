@@ -55,6 +55,25 @@ img {
   margin: 8px auto;
 }
 
+.subtitulo_interno {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subtitulo_interno::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: black;
+  margin: 8px 0;
+}
+
 /* Header */
 
 .header {
@@ -86,6 +105,10 @@ img {
   padding: 10px 0;
 }
 .header_menu ul li a:hover {
+  color: white;
+}
+
+.header_menu ul li a.menu_ativo {
   color: white;
 }
 
@@ -258,6 +281,7 @@ img {
 
 .qualidade_lista {
   padding-top: 20px;
+  overflow: auto;
 }
 
 .qualidade_lista li {

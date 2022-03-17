@@ -7,8 +7,12 @@
   padding-top: 60px;
 }
 
-.missao_sobre p {
+.missao_sobre p,
+.missao_sobre ul li {
   font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 1em;
+  padding-right: 60px;
 }
 
 .foto_equipe {

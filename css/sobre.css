@@ -2,3 +2,15 @@
   background: url("../img/bg-sobre.jpg") no-repeat center;
   background-size: cover;
 }
+
+.missao_sobre {
+  padding-top: 60px;
+}
+
+.missao_sobre p {
+  font-size: 18px;
+}
+
+.foto_equipe {
+  padding-top: 40px;
+}

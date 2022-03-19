@@ -18,6 +18,16 @@
   text-align: center;
 }
 
+.produto_item h2::after,
+.produto_item h2::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: white;
+  margin: 6px auto 10px auto;
+}
+
 .produto_icone {
   background-color: black;
   padding: 70px 0;

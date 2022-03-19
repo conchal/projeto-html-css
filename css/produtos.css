@@ -2,3 +2,23 @@
   background: url("../img/bg-produtos.jpg") no-repeat center;
   background-size: cover;
 }
+
+.produto_item {
+  padding-top: 60px;
+}
+
+.produto_item h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.produto_icone {
+  background-color: black;
+  padding: 70px 0;
+}
+
+.produto_icone img {
+  margin: 0 auto;
+}

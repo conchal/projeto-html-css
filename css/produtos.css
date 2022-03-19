@@ -9,9 +9,13 @@
 
 .produto_item h2 {
   font-size: 36px;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-weight: bold;
+  position: relative;
+  top: -170px;
+  text-align: center;
 }
 
 .produto_icone {

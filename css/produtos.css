@@ -54,6 +54,10 @@
   text-transform: uppercase;
   font-size: 18px;
   font-weight: bold;
-  display: inline-block;
+  float: left;
   line-height: 20px;
+  width: 229px;
+  height: 49px;
+  text-align: center;
+  margin-right: 2px;
 }

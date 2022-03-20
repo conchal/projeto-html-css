@@ -40,5 +40,20 @@
 
 .produto_info {
   background-color: black;
+}
+
+.produto_info p {
   color: white;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 30px 40px;
+}
+
+.produto_info ul li {
+  background-color: #fec63e;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 20px;
 }

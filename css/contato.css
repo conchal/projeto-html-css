@@ -49,10 +49,6 @@
   background: none;
 }
 
-.orcamento_dados {
-  color: white;
-}
-
 .contato_dados h3 {
   font-size: 18px;
   line-height: 25px;
@@ -89,4 +85,8 @@
 
 .contato_dados ul li a:hover {
   border: 3px solid black;
+}
+
+.contato_mapa {
+  margin-bottom: 60px;
 }

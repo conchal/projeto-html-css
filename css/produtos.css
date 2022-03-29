@@ -71,3 +71,23 @@
 .produto_info ul li:nth-child(even) {
   margin-left: 2px;
 }
+
+/* ORÇAMENTO */
+
+.orcamento {
+  background-color: black;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.orcamento h2 {
+  color: #fec63e;
+}
+
+.form {
+  padding-right: 60px;
+}
+
+.form label {
+  display: block;
+}

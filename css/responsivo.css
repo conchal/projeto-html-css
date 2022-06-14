@@ -58,6 +58,10 @@
     border-color: white;
   }
 
+  .header_menu ul li a.menu_ativo {
+    border-color: white;
+  }
+
   /* Introdução */
 
   .introducao {
@@ -70,6 +74,13 @@
     padding-top: 40px;
     font-size: 36px;
   }
+
+  /* Introdução interna */
+
+  .introducao_interna {
+    margin-top: 0px;
+  }
+  
 
   /* Call */
 

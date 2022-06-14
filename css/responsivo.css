@@ -1,4 +1,4 @@
-/* Estilo Tablet */
+/* ESTILO TABLET */
 
 @media only screen and (min-width: 788px) and (max-width: 979px) {
   
@@ -25,7 +25,27 @@
   height: 26px;
 }
 
-/* Estilo Mobile */
+/* Produtos */
+
+.produto_item h2 {
+  top: -150px;
+  margin-bottom: -56px;
+}
+
+.produto_icone {
+  padding: 41px 0;
+}
+
+.produto_info p {
+  font-size: 14px;
+  line-height: 20px;
+  padding: 20px 30px;
+}
+
+
+
+
+/* ESTILO MOBILE */
 
 @media only screen and (max-width: 787px) {
   
